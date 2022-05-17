@@ -32,6 +32,10 @@ p {
   justify-content: center;
 }
 
+.grdnt-sky {
+  background-image: linear-gradient( 318deg, #51a5d9 0, #e9f6ff 51%, #009cff 100% );
+}
+
 .qrcode-tip {
   padding: 8px;
 }
