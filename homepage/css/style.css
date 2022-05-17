@@ -283,8 +283,7 @@ p.large {
   box-shadow: 0 0 0 transparent;
 }
 .bg-gray {
-  background: url(../image/bg-gray.png) left top no-repeat;
-  background-size: cover;
+  background-color: #f7f6f9;
 }
 .bg-light {
   background: #f2f5ff;
@@ -810,7 +809,7 @@ div[class*="grdnt-"] .list-style li:before {
   color: #46da60;
 }
 .clr-blue {
-  color: #5b63fb;
+  color: #51a5d9;
 }
 .clr-red {
   color: #fe2553;

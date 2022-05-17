@@ -18,6 +18,10 @@ p {
   color: #6f6c7f;
 }
 
+.banner-shadow {
+  box-shadow: 0 10px 22px -12px rgb(148 177 195);
+}
+
 .flex-center-col {
   display: flex;
   flex-direction: column;
@@ -33,15 +37,16 @@ p {
 }
 
 .grdnt-sky {
-  background-image: linear-gradient( 318deg, #51a5d9 0, #e9f6ff 51%, #009cff 100% );
+  background-image: linear-gradient( 351deg, #5184a5 0, #68c3ff 51%, #007ccb 100% );
 }
 
 .qrcode-tip {
   padding: 8px;
+  color: #757575;
 }
 
 .tooltip-inner {
-  background-color: #e20584;
+  background-color: white;
 }
 
 .feature-wrapper {

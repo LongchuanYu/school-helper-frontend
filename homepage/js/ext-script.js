@@ -83,7 +83,7 @@
       margin: 30,
       center: true,
       autoplay: true,
-      autoplayTimeout: 4000,
+      autoplayTimeout: 6000,
       responsive: {
         300: { items: 1 },
         400: { items: 1 },
