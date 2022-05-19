@@ -111,12 +111,12 @@ const NEWS_LIST = [
     content: post1,
     brief: '引入新的Flex弹性布局，可以实现通过一整套响应灵活的实用程序，快速管理栅格的列、导航、组件等的布局、对齐和大小。通过进一度的定义CSS，还可以实现更复杂的展示样式。',
     id: 1,
-    coverUrl: '/homepage/image/news-cover.jpg'
+    coverUrl: DOMAIN + '/image/news-cover.jpg'
   }, {
     title: '校园帮又上线啦',
     content: '又上线了！！！',
     brief: '又上线了！！！',
     id: 2,
-    coverUrl: '/homepage/image/logo.png'
+    coverUrl: DOMAIN + '/image/logo.png'
   }
 ]
