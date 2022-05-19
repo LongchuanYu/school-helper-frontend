@@ -1,0 +1,49 @@
+.cover-wrapper {
+  height: 260px;
+  cursor: pointer;
+}
+
+.cover-wrapper img {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.news-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.news-brief {
+  font-size: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+.news-detail-content {
+  font-size: 18px;
+
+}
+
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all .2s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}

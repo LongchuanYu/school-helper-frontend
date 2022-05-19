@@ -125,3 +125,33 @@ p {
   position: absolute;
 }
 
+#news .img-wrapper {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+#news .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#news .news-title {
+  font-weight: 600;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 15px;
+}
+
+#news .news-content {
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
